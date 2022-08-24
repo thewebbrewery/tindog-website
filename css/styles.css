@@ -96,7 +96,7 @@ h3 {
 }
 
 
-/* title-secion */
+/* title-section */
 
 
 #title .container-fluid {
@@ -166,7 +166,12 @@ p {
 
 
 #pricing {
-    padding: 80px;
+    padding: 100px;
+}
+
+.price-value {
+    font-size: 3rem;
+    line-height: 1.2;
 }
 
 .pricing-col {
@@ -203,9 +208,25 @@ p {
 
 
 
-@media (max-width:992px) {
+@media (max-width:994px) {
+
+    .container-fluid {
+        padding: 8% 10% !important;
+    }
+
     #title .container-fluid {
         text-align: center;
+    }
+
+    .nav-link,
+    .navbar-toggler {
+        font-size: 2rem;
+    }
+
+    .features-container,
+    .card-body p,
+    .p-btn {
+        font-size: 1.5rem;
     }
 
     .big-heading {
@@ -227,6 +248,7 @@ p {
 }
 
 @media(min-width:993px) and (max-width:1450px) {
+
     .phone-img {
         width: 70%;
         transform: rotate(0);
