@@ -164,9 +164,29 @@ p {
 
 /* Pricing Plans */
 
+.p-btn {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+}
+
+.card {
+    background-color: #fdf2f1;
+    border: 1px solid #f7c0b9;
+}
 
 #pricing {
     padding: 100px;
+}
+
+.card-header {
+    background-color: #fce6e3;
+    padding: 5%;
+    font-size: 3rem !important;
+    letter-spacing: 10px;
+}
+
+h2.pricing-heading {
+    font-size: 2.5rem;
 }
 
 .price-value {
@@ -219,25 +239,49 @@ p {
     }
 
     .nav-link,
-    .navbar-toggler {
-        font-size: 2rem;
+    .navbar-toggler,
+    .card-header {
+        font-size: 2.2rem !important;
+    }
+
+    .card-header h3 {
+        font-size: 2.5rem;
+    }
+
+    .pricing-heading,
+    .p-head {
+        margin-bottom: 8%;
+    }
+
+    .pricing-heading {
+        font-size: 2.5rem;
+    }
+
+    .pricing-col {
+        border: 1px solid #ffa6b4;
+        border-radius: 2px;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .p-btn {
+        font-size: 2rem !important;
+    }
+
+    .card-body {
+        line-height: 2.5;
+        margin: 25px;
     }
 
     .features-container,
     .card-body p,
-    .p-btn {
+    .p-head {
         font-size: 1.5rem;
     }
 
+    #testimonials h2,
+    #pricing h2,
     .big-heading {
-        line-height: 1.2;
-    }
-
-    #pricing h2 {
-        line-height: 1.2;
-    }
-
-    #testimonials h2 {
         line-height: 1.2;
     }
 
